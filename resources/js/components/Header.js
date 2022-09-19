@@ -25,6 +25,7 @@ import {Link ,useLocation} from "react-router-dom";
         });
     }, [])
     return (
+        <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
             <Link to="/" className="navbar-brand">Laravel</Link>
@@ -47,6 +48,7 @@ import {Link ,useLocation} from "react-router-dom";
             </div>
             </div>
         </nav>
+        </div>
     );
 }
 export default Header;
